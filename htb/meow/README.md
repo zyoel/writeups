@@ -18,7 +18,7 @@ PORT   STATE SERVICE
 
 We got the port 23 open; Telnet, lets try logging in with the default credentials.
 
-![Search](./assets/search.png)
+![Image](./assets/search.png)
 
 Here i tried these three and did the following:
 
