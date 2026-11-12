@@ -1,7 +1,7 @@
-# [HackTheBox] [Fawn]: [Enumeration], [FTP]
+# [HackTheBox] [Fawn]: [Enumeration], [Foothold]
 
 **Target:** [Fawn] | **OS:** Linux | **Difficulty:** Super Easy 
-**Attack Vector:** [Enumeration]
+**Attack Vector:** [Enumeration -> Foothold -> Flag]
 
 ---
 
@@ -20,11 +20,17 @@ Those are the results of our scan, so lets search a bit about File Transfer Prot
 
 In this image we can see default credentials, so after trying with `anonymous` we succesfully logged in using a blank password.
 
+## 2. Foothold
+
 ```bash
 ftp 10.129.118.231
-230 Login successful.
-Remote system type is UNIX.
-Using binary mode to transfer files.
+```
+
+Here we use the default cretendial an after
+
+`230 Login successful.`
+
+```shell
 ftp> ls
 200 PORT command successful. Consider using PASV.
 150 Here comes the directory listing.
@@ -39,7 +45,7 @@ ftp> quit
 221 Goodbye.
 ```
 
-And how 
+## 3. Flag
 
 ```bash
 ➜ cat flag.txt
