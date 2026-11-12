@@ -1,7 +1,7 @@
 # [HackTheBox] [Meow]: [Enumeration], [Foothold]
 
 **Target:** [Meow] | **OS:** Linux **Difficulty:** Super Easy  
-**Attack Vector:** [Enumeration -> Foothold]
+**Attack Vector:** [Enumeration -> Foothold -> Flag]
 
 ---
 
