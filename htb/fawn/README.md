@@ -1,7 +1,7 @@
-# [HackTheBox] [Fawn]: [Enumeration], [Vector 2] & [PrivEsc]
+# [HackTheBox] [Fawn]: [Enumeration], [FTP]
 
 **Target:** [Fawn] | **OS:** Linux | **Difficulty:** Super Easy 
-**Attack Vector:** [Enumeration -> Foothold]
+**Attack Vector:** [Enumeration]
 
 ---
 

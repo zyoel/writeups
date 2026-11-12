@@ -1,7 +1,7 @@
-# [HackTheBox] [Meow]: [Enumeration]
+# [HackTheBox] [Meow]: [Enumeration], [Foothold]
 
 **Target:** [Meow] | **OS:** Linux **Difficulty:** Super Easy  
-**Attack Vector:** [Enumeration]
+**Attack Vector:** [Enumeration -> Foothold]
 
 ---
 
@@ -20,7 +20,9 @@ We got the port 23 open which is Telnet, lets try logging in with the default cr
 
 ![Search](https://raw.githubusercontent.com/zyoel/writeups/main/htb/meow/assets/search.png)
 
-I found these possible options on google, so after trying:
+I found these possible options on google, so lets try
+
+## 2. Foothold
 
 ```bash
 telnet 10.129.118.204 
@@ -28,6 +30,7 @@ telnet 10.129.118.204
 
 It working with `root` allowing me to connect, once inside
 
+## 3. Flag
 ```bash
 root@Meow:~# ls
 flag.txt  snap
