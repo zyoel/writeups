@@ -20,13 +20,13 @@ We got the port 23 open which is Telnet, lets try logging in with the default cr
 
 ![Image](./assets/search.png)
 
-Here i tried these three and did the following:
+I found these possible options on google, so after trying:
 
 ```bash
 telnet 10.129.118.204 
 ```
 
-Then when i tried `root` it allowed me to connect, once inside
+It working with `root` allowing me to connect, once inside
 
 ```bash
 root@Meow:~# ls
