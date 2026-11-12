@@ -18,7 +18,7 @@ PORT   STATE SERVICE
 
 We got the port 23 open which is Telnet, lets try logging in with the default credentials.
 
-![Image](./assets/search.png)
+![Search](https://raw.githubusercontent.com/zyoel/writeups/main/htb/meow/assets/search.png)
 
 I found these possible options on google, so after trying:
 
