@@ -16,7 +16,7 @@ PORT   STATE SERVICE
 
 Those are the results of our scan, so lets search a bit about File Transfer Protocol
 
-![Image](htb/fawn/assets/search.png)
+![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/fawn/assets/search.png)
 
 In this image we can see default credentials, so after trying with `anonymous` we succesfully logged in using a blank password.
 
