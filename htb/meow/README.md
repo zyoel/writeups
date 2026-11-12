@@ -16,7 +16,7 @@ sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.118.204
 PORT   STATE SERVICE
 23/tcp open  telnet
 
-We got the port 23 open; Telnet, lets try logging in with the default credentials.
+We got the port 23 open which is Telnet, lets try logging in with the default credentials.
 
 ![Image](./assets/search.png)
 
