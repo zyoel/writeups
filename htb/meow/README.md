@@ -1,4 +1,4 @@
-# [HackTheBox] [Meow]: [Vector 1], [Vector 2] & [PrivEsc]
+# [HackTheBox] [Meow]: [Enumeration]
 
 **Target:** [Meow] | **OS:** Linux **Difficulty:** Super Easy  
 **Attack Vector:** [Enumeration]
@@ -18,7 +18,7 @@ PORT   STATE SERVICE
 
 We got the port 23 open; Telnet, lets try logging in with the default credentials.
 
-![Search](/home/yoel/writeups/htb/meow/assets/search.png)
+![Search](./assets/search.png)
 
 Here i tried these three and did the following:
 
