@@ -26,7 +26,7 @@ In this image we can see default credentials, so after trying with `anonymous` w
 ftp 10.129.118.231
 ```
 
-Here we use the default cretendial an after
+Here we use the default cretendial we found before
 
 `230 Login successful.`
 
