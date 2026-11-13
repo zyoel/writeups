@@ -26,7 +26,7 @@ PORT      STATE SERVICE
 
 In this scan we can see the port 445 and 135 which are SMB with this information we can try the following using smbclinet
 
-![Image](githublink)
+![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/dancing/assets/search.png)
 
 Here is where i got the information from so lets continue with
 
