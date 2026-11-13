@@ -11,7 +11,7 @@
 sudo nmap -p- -sS ---min-rate 5000 -T3 10.129.120.102
 ```
 
-PORT      STATE SERVICE
+`PORT      STATE SERVICE
 135/tcp   open  msrpc
 139/tcp   open  netbios-ssn
 445/tcp   open  microsoft-ds
@@ -22,7 +22,7 @@ PORT      STATE SERVICE
 49666/tcp open  unknown
 49667/tcp open  unknown
 49668/tcp open  unknown
-49669/tcp open  unknown
+49669/tcp open  unknown`
 
 In this scan we can see the port 445 and 135 which are SMB with this information we can try the following using smbclinet
 
