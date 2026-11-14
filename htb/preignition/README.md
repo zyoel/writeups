@@ -46,11 +46,11 @@ Here it seems like it found something useful, lets try the subdomain
 
 ![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/preignition/assets/admin.png)
 
-We have an Admin Console, since we dont have any credentials we can try using SQL Injection to log in without a password or user.
+We have an Admin Console, since we dont have any credentials we can try using SQL Injection to log in without a password or user
 
 After a few tries i got nothing so went to try basic login credentials and `admin` in password and user worked
 
-##. Flag
+## 3. Flag
 
 ![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/preignition/assets/login.png)
 
