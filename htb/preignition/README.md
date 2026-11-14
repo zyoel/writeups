@@ -44,7 +44,7 @@ Progress: 4752 / 4752 (100.00%)
 
 Here it seems like it found something useful, lets try the subdomain
 
-![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/preignition/assets/login.png)
+![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/preignition/assets/admin.png)
 
 We have an Admin Console, since we dont have any credentials we can try using SQL Injection to log in without a password or user.
 
@@ -52,7 +52,7 @@ After a few tries i got nothing so went to try basic login credentials and `admi
 
 ##. Flag
 
-![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/preignition/assets/admin.png)
+![Image](https://raw.githubusercontent.com/zyoel/writeups/main/htb/preignition/assets/login.png)
 
 `6483bee07c1c1d57f14e5b0717503c73`
 
